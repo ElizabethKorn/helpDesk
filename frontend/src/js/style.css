@@ -1,0 +1,52 @@
+.tickets-list {
+  margin-top: 10px;
+}
+.ticket {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+}
+.ticket.done .ticket-body {
+  text-decoration: line-through;
+  color: gray;
+}
+.ticket input.ticket-done {
+  margin-right: 10px;
+}
+.ticket .ticket-body {
+  flex-grow: 1;
+  cursor: pointer;
+}
+.ticket button {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal.hidden {
+  display: none;
+}
+.modal-content {
+  background: white;
+  padding: 20px;
+  min-width: 300px;
+  border-radius: 6px;
+}
+.modal-content label {
+  display: block;
+  margin-bottom: 10px;
+}
+.modal-buttons {
+  text-align: right;
+}
