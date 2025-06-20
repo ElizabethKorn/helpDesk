@@ -5,4 +5,4 @@
 
 ## Status
 
-![Deploy](https://github.com/ElizabethKorn/helpDesk/blob/main/frontend/.github/workflows/deploy.yml/badge.svg)
+![Deploy](https://github.com/ElizabethKorn/helpDesk/actions/workflows/deploy.yml/badge.svg)
