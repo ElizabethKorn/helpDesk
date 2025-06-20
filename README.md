@@ -1,8 +1,8 @@
 # HelpDesk
 
 ## 🔗 Github Pages
-[Открыть](https://ElizabethKorn.github.io/helpDesk/)
+[Открыть](https://elizabethKorn.github.io/helpDesk/)
 
-## ✅ Status
+## Status
 
 ![Deploy](https://github.com/ElizabethKorn/helpDesk/actions/workflows/deploy.yml/badge.svg)
